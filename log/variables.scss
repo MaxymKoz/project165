@@ -1,0 +1,11 @@
+$font-size:1px;
+$background-color:#FDF6EB;
+$width:100%;
+$border:3px solid black;
+$breakpoint:600px;
+
+@mixin large-breakpoint {
+    @media screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
